@@ -1,0 +1,192 @@
+*{
+    border:0;
+    padding:0%;
+    margin:0;
+}
+.header{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.navigation{
+    display:flex;
+    background-color:rgb(243, 154, 253);
+    justify-content:space-evenly;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.item{
+    width: 150px;
+    height:50px;
+    background-color: rgb(255, 232, 226);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7%;
+}
+div.item:hover{
+    background-color:rgb(220, 243, 249);
+}
+.showcase{
+    background-image: url(./assets/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:400px;
+    color:black;
+    font-size:100px;
+    text-align: center;
+}
+.home{
+    margin-top: 10px;
+    display :flex;
+    background-color: rgb(243, 154, 253);
+}
+.homecontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.homecontent h1{
+    padding-bottom: 20px;
+}
+
+.About{
+    margin-top: 10px;
+    display :flex;
+    /*background-color:rgb(209, 209, 209);*/
+    background-color:rgb(255,232,226);
+}
+.aboutcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.aboutcontent h1{
+    padding-bottom: 20px;
+}
+.coursehead{
+    margin-top: 10px;
+    padding: 30px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(243, 154, 253);
+}
+.learn{
+    background-color:rgb(243, 154, 253);
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.course{
+    margin-bottom: 30px;
+    border:2px dashed black;
+    width:450px;
+    font-size:20px;
+}
+.course p{
+    padding:20px 20px;
+}
+.course h2{
+    padding:20px 20px;
+}
+
+.cognitive{
+    background-color:rgb(255, 232,226);
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.cognitive h1{
+    margin-left:30px;
+    margin: top 20px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cogcontent{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 20px;
+    display:list-item;
+    list-style-type: disc;
+    font-size: 25px;
+}
+.teacher{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(243, 154, 253);
+}
+.teach{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px dashed black;
+}
+.teach img{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.qualification{
+    display: flex;
+    flex-direction: column;
+}
+.qualification p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.faculty{
+    background-color: rgb(243, 154, 253);
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.course h2 a:hover{
+   color:rgb(119, 121, 255);
+}
+.course h2 a:visited{
+    color:black;
+}
+.course h2 a{
+    text-decoration: none;
+}
+
+.item a:visited{
+    color:black;
+}
+.item a{
+    text-decoration: none;
+}
+footer {
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+
+
+
